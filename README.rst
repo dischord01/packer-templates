@@ -63,8 +63,9 @@ Parallel builds can be run on 0.6.0 or latest packer version.
 
 
 Add the new .ovf box to Vagrant as centos.7.docker
- 
+
 ::
+
     $ vagrant box add <path/to/box.ovf> --name centos.7.docker
 
 
