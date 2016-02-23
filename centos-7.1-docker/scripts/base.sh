@@ -43,5 +43,8 @@ sudo -i chmod +x /usr/local/bin/docker-compose
 sudo curl -L https://github.com/docker/machine/releases/download/v0.6.0/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine && \
 sudo chmod +x /usr/local/bin/docker-machine
 
-
+# Install Nodejs & NPM
+sudo yum install epel-release
+sudo yum install nodejs
+sudo yum install npm
 
