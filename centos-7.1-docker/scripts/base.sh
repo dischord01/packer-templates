@@ -47,4 +47,5 @@ sudo chmod +x /usr/local/bin/docker-machine
 sudo yum install epel-release
 sudo yum install nodejs
 sudo yum install npm
+sudo npm -g install npm
 
